@@ -1,2 +1,2 @@
 # nova-denton-pary.github.io
-Personal portfolio site, hosted via GitHub pages
+Personal portfolio site. Live at https://nova-denton-parry.github.io
