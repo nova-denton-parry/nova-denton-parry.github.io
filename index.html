@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nova Denton-Parry — Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <span class="nav-logo">nova-denton-parry</span>
+  <ul class="nav-links">
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Software Developer</div>
+    <h1>Building things that<br><em>actually work.</em></h1>
+    <p class="hero-bio">I'm Nova, a developer studying software development with a focus on C# and .NET. When I'm not writing backend systems, I'm building a cozy farming sim in Godot.</p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn-primary">See my work</a>
+      <a href="https://github.com/nova-denton-parry" target="_blank" class="btn-secondary">GitHub</a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="dot dot-r"></div>
+        <div class="dot dot-y"></div>
+        <div class="dot dot-g"></div>
+      </div>
+      <div class="terminal-body">
+<span class="t-comment">// nova-denton-parry</span><br>
+<span class="t-key">const</span> <span class="t-val">dev</span> = <span class="t-bracket">{</span><br>
+&nbsp;&nbsp;<span class="t-key">stack</span>: <span class="t-bracket">[</span><span class="t-str">"C#"</span>, <span class="t-str">".NET"</span>, <span class="t-str">"SQL"</span><span class="t-bracket">]</span>,<br>
+&nbsp;&nbsp;<span class="t-key">currently</span>: <span class="t-bracket">[</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-str">"farmsim-godot"</span>,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-str">"book-tracker-2"</span><br>
+&nbsp;&nbsp;<span class="t-bracket">]</span>,<br>
+&nbsp;&nbsp;<span class="t-key">enjoys</span>: <span class="t-str">"indie game dev"</span>,<br>
+&nbsp;&nbsp;<span class="t-key">status</span>: <span class="t-str">"building"</span><br>
+<span class="t-bracket">}</span><br><br>
+<span class="t-prompt">&gt;</span> <span class="t-val">dev</span>.<span class="t-key">launch</span>()<br>
+<span class="t-comment">// ready. ✓</span> <span class="t-cursor"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label">Work</div>
+  <h2>Things I've <em>built.</em></h2>
+
+  <div class="projects-grid">
+
+    <div class="project-card active">
+      <div class="card-top">
+        <span class="project-name">farmsim-godot</span>
+        <span class="badge badge-wip">in progress</span>
+      </div>
+      <div class="project-tags">
+        <span class="tag lang">GDScript</span>
+        <span class="tag">Godot 4</span>
+        <span class="tag">Game Dev</span>
+      </div>
+      <p class="project-desc">A cozy farming sim with crop systems, resource gathering, and NPC animals. Built from scratch in Godot 4 as a personal passion project. Ongoing development.</p>
+      <a href="https://github.com/nova-denton-parry/farmsim-godot" target="_blank" class="project-link">View on GitHub &rarr;</a>
+    </div>
+
+    <div class="project-card active">
+      <div class="card-top">
+        <span class="project-name">book-tracker-2</span>
+        <span class="badge badge-wip">in progress</span>
+      </div>
+      <div class="project-tags">
+        <span class="tag lang">C#</span>
+        <span class="tag">.NET MAUI</span>
+        <span class="tag">SQLite</span>
+      </div>
+      <p class="project-desc">A cross-platform rebuild of my original BookTracker app. Migrated from PHP/MySQL to .NET MAUI with a local SQLite database -- runs on desktop and mobile.</p>
+      <a href="https://github.com/nova-denton-parry/book-tracker-2" target="_blank" class="project-link">View on GitHub &rarr;</a>
+    </div>
+
+    <div class="project-card">
+      <div class="card-top">
+        <span class="project-name">SpriteSlicer</span>
+      </div>
+      <div class="project-tags">
+        <span class="tag lang">C#</span>
+        <span class="tag">CLI</span>
+      </div>
+      <p class="project-desc">A command-line tool for slicing sprite sheets into individual images by row. Built to solve a real problem in my own game dev workflow.</p>
+      <a href="https://github.com/nova-denton-parry/SpriteSlicer" target="_blank" class="project-link">View on GitHub &rarr;</a>
+    </div>
+
+    <div class="project-card">
+      <div class="card-top">
+        <span class="project-name">LibraryManagementSOAP</span>
+      </div>
+      <div class="project-tags">
+        <span class="tag lang">C#</span>
+        <span class="tag">WCF</span>
+        <span class="tag">SOAP</span>
+      </div>
+      <p class="project-desc">A WCF-based SOAP library management system with a console client. Includes full CRUD, ISBN validation, search functionality, and a checkout/return borrowing system.</p>
+      <a href="https://github.com/nova-denton-parry/LibraryManagementSOAPApplication" target="_blank" class="project-link">View on GitHub &rarr;</a>
+    </div>
+
+    <div class="project-card">
+      <div class="card-top">
+        <span class="project-name">BookTracker (v1)</span>
+      </div>
+      <div class="project-tags">
+        <span class="tag lang">PHP</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">Web App</span>
+      </div>
+      <p class="project-desc">Web app for tracking personal reading with a normalized relational database and a fully dynamic, database-driven UI. The project that became book-tracker-2.</p>
+      <a href="https://github.com/nova-denton-parry/BookTracker" target="_blank" class="project-link">View on GitHub &rarr;</a>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<section class="skills-section" id="skills">
+  <div class="section-label">Toolkit</div>
+  <h2>What I work <em>with.</em></h2>
+
+  <div class="skills-grid">
+    <div class="skill-group">
+      <div class="skill-group-label">Languages</div>
+      <div class="skill-list">
+        <span class="skill-chip">C#</span>
+        <span class="skill-chip">PHP</span>
+        <span class="skill-chip">GDScript</span>
+        <span class="skill-chip">SQL</span>
+        <span class="skill-chip">JavaScript/Node.js</span>
+        <span class="skill-chip">Python</span>
+        <span class="skill-chip">Swift</span>
+        <span class="skill-chip">HTML/CSS</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <div class="skill-group-label">Frameworks</div>
+      <div class="skill-list">
+        <span class="skill-chip">.NET/ASP.NET Core</span>
+        <span class="skill-chip">.NET MAUI</span>
+        <span class="skill-chip">WCF/Soap Services</span>
+        <span class="skill-chip">Godot 4</span>
+        <span class="skill-chip">Entity Framework</span>
+        <span class="skill-chip">React</span>
+        <span class="skill-chip">Express.js</span>
+        <span class="skill-chip">Bootstrap</span>
+        <span class="skill-chip">jQuery</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <div class="skill-group-label">Databases</div>
+      <div class="skill-list">
+        <span class="skill-chip">MySQL</span>
+        <span class="skill-chip">SQLite</span>
+        <span class="skill-chip">SQL Server</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <div class="skill-group-label">Concepts</div>
+      <div class="skill-list">
+        <span class="skill-chip">Relational DB design</span>
+        <span class="skill-chip">Cross-platform & mobile dev</span>
+        <span class="skill-chip">Service-layer architecture</span>
+        <span class="skill-chip">REST APIs</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label">About</div>
+  <h2>Developer by study,<br><em>builder by nature.</em></h2>
+
+  <div class="about-grid">
+    <div class="about-text">
+      <p>I'm a software development student with a focus on backend systems and application development. My work tends to center around <strong>C# and .NET</strong>, with a fair amount of SQL thrown in for good measure.</p>
+      <p>Outside of coursework, I spend a lot of time on personal projects -- whether that's a <strong>cross-platform app rebuild</strong> or a <strong>cozy farming sim</strong> in Godot. I like building things I'd actually want to use.</p>
+      <p>I'm based in South Dakota and currently looking for opportunities where I can keep learning and keep shipping.</p>
+    </div>
+
+    <div class="about-stats">
+      <div class="stat-card">
+        <div class="stat-num">5</div>
+        <div class="stat-label">Public repos</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">7</div>
+        <div class="stat-label">Languages</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">2</div>
+        <div class="stat-label">Active projects</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">1</div>
+        <div class="stat-label">Game in dev</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="contact-text">
+      <div class="section-label">Contact</div>
+      <h2>Let's <em>connect.</em></h2>
+      <p>Open to internships, entry-level roles, and interesting conversations about code or games.</p>
+    </div>
+    <div class="contact-links">
+      <a href="https://github.com/nova-denton-parry" target="_blank" class="btn-primary">GitHub</a>
+      <a href="https://www.linkedin.com/in/nova-denton-parry" target="_blank" class="btn-secondary">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<footer>
+  <p>Nova Denton-Parry</p>
+  <p>Built from scratch — no templates.</p>
+</footer>
+
+</body>
+</html>
